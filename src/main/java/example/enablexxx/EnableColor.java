@@ -11,7 +11,8 @@ import java.lang.annotation.Target;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import({Red.class, ColorRegistrarConfiguration.class, ColorImportSelector.class, ColorImportBeanDefinitionRegistrar.class})
+@Import({ Red.class, ColorRegistrarConfiguration.class, ColorImportSelector.class, ColorImportDeferredSelector.class,
+          ColorImportBeanDefinitionRegistrar.class })
 public @interface EnableColor {
-    
+
 }

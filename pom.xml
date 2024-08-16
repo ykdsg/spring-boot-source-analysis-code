@@ -23,12 +23,12 @@
         </dependency>
 
         <!-- 测试AOP时加入此依赖 -->
-        <!--
+        <!-- -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
-        -->
+
 
         <!-- 测试声明式事务时加入此依赖 -->
         <!--
@@ -37,7 +37,6 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
         -->
-
 
         <!-- 测试WebFlux时加入此依赖，并移除最上面的web依赖 -->
         <!--
